@@ -1,0 +1,71 @@
+#Perfil{
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+}
+
+body{
+    background-color: rgb(227, 210, 243);
+    font-family: cursive;
+}
+
+img{
+    width: 30%;
+    height: 10%;
+}
+
+hr{
+    border: 1px solid;
+    border-color: rgb(237, 200, 245);
+    width: 35%;
+}
+
+section{
+    background-color: rgb(226, 190, 226);
+    border: 1px solid;
+    border-color: black;
+    margin: 5%;
+    padding: 5%;
+}
+
+.ladoalado{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.ladoalado2{
+    width: 100%;
+   background-color: rgb(235, 199, 235);
+    display: flex; 
+    position: fixed; 
+    z-index: 1;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.redesociais{
+width:5% ;
+height: 5%;
+}
+
+.menu-item{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    gap: 2rem;
+}
+
+.menu-item:hover{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(234, 187, 248);
+    border-radius: 10%;
+    gap: 2rem;
+}
+
+#Inicio{
+    margin-top: 60px;
+}
